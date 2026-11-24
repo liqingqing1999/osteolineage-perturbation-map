@@ -1,0 +1,4 @@
+__pycache__/
+results/figs/
+results/export/
+*.log

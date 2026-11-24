@@ -1,0 +1,14 @@
+# Software environment used for the deposited results (2026-11-06 run)
+
+Python  3.13.14
+  numpy, pandas, scipy, matplotlib  (permutation, verdict tables, figures)
+R       4.6.1
+  UCell (Bioconductor)              # single-cell signature scoring, maxRank=1500
+
+# Figure regeneration from deposited results needs only:
+#   Python 3.x with numpy, pandas, scipy, matplotlib
+#   export T65_DIR=<repo>/results ; python code/vc_66_figures.py ; python code/vc_67_figures.py
+#
+# Full pipeline re-run additionally needs the GEO raw download (GSE319266) and the
+# S0v2 preprocessing products; see README "Reproducing the figures" and the
+# environment variables documented at the top of each script.
