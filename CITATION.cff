@@ -1,6 +1,6 @@
 cff-version: 1.2.0
-message: "If you use this software or the deposited result tables, please cite it below."
-title: "A pre-registered perturbation-response map of the human osteolineage: code and results"
+message: "If you use this software or the deposited pre-registration protocol, please cite it below."
+title: "A pre-registered perturbation-response map of the human osteolineage: analysis code and pre-registration protocol"
 authors:
   - family-names: Fu
     given-names: J.
@@ -15,4 +15,8 @@ version: v1.0.0
 date-released: "2026-11-24"
 license: MIT
 repository-code: "https://github.com/liqingqing1999/osteolineage-perturbation-map"
-abstract: "Analysis code, dated pre-registration protocol (with amendments), per-unit permutation checkpoints, and result tables for a pre-registered CRISPRi perturbation-response map of the human osteolineage along an adipogenic-osteogenic lineage axis (GSE319266; scoring panel derived from GSE169396)."
+identifiers:
+  - description: "Zenodo archive of release v1.0.0"
+    identifier: "10.5281/zenodo.24488714"
+    type: doi
+abstract: "Analysis code and the dated pre-registration protocol (original text, amendments A1-A3, and closure note) for a pre-registered CRISPRi perturbation-response map of the human osteolineage along an adipogenic-osteogenic lineage axis (GSE319266; scoring panel derived from GSE169396)."
