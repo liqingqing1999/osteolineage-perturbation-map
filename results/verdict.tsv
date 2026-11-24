@@ -1,5 +1,0 @@
-gate	definition	result	verdict
-Q1	CD55-MOI 2D occupancy shift (within-day, weighted)	dist=0.0096 null95=0.0058 p=0.015	PASS
-G1	negative floor: non-robust SNP units within own null p95	within=0.897 (714/796)	FAIL
-G2	prior-anchored direction concordance (sign test)	8/9 concordant, one-sided p=0.0195	PASS
-G3	LOBO stability (6 Full runs) + day2/4 sensitivity	LOBO significant folds=0/6; day2/4: 3/5 p=nan	REPORT
